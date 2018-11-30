@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite SauceLab]" parallel="tests">
+  <test thread-count="5" name="Test SauceNode1(failed)" parallel="tests">
+    <classes>
+      <class name="sauceLabTesting.SauceNode1">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- sauceLabTesting.SauceNode1 -->
+    </classes>
+  </test> <!-- Test SauceNode1(failed) -->
+  <test thread-count="5" name="Test SauceNode2(failed)" parallel="tests">
+    <classes>
+      <class name="sauceLabTesting.SauceNode2">
+        <methods>
+          <include name="closing"/>
+        </methods>
+      </class> <!-- sauceLabTesting.SauceNode2 -->
+    </classes>
+  </test> <!-- Test SauceNode2(failed) -->
+</suite> <!-- Failed suite [Suite SauceLab] -->

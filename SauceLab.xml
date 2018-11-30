@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite SauceLab" parallel="tests">
+	<test name="Test SauceNode1">
+		<classes>
+			<class name="sauceLabTesting.SauceNode1" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test SauceNode2">
+		<classes>
+			<class name="sauceLabTesting.SauceNode2" />
+		</classes>
+	</test>
+</suite>
